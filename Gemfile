@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.0.1'
 
+gem 'listen'
+
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
